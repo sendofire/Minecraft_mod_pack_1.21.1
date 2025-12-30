@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "testmod",
+	"version": "${version}",
+	"name": "testmod",
+	"description": "Test of a Minecraft Fabric mod in Minecraft 1.21.1",
+	"authors": [
+		"sendofire"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/testmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "sendofire.testmod.TestMod"
+		],
+		"fabric-datagen": [
+			"sendofire.testmod.TestModDataGenerator"
+		],
+		"client": [
+			"sendofire.testmod.TestModClient"
+		]
+	},
+	"mixins": [
+		"testmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
