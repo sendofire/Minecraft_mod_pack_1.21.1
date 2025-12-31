@@ -1,3 +1,7 @@
 {
-  "item.testmod.kingly_soul_eye": "Kingly Soul Eye"
+  "item.testmod.kingly_soul_eye": "Kingly Soul Eye",
+  "item.testmod.pink_garnet": "Pink Garnet",
+
+  "block.testmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.testmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
