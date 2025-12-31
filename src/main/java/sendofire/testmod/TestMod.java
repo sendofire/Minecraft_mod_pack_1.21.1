@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sendofire.testmod.block.ModBlocks;
+import sendofire.testmod.item.ModItemGroups;
 import sendofire.testmod.item.ModItems;
 
 public class TestMod implements ModInitializer {
@@ -13,6 +14,8 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
