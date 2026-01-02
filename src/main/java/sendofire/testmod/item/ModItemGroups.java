@@ -16,6 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.testmod.pink_garnet"))
                     .entries((displayContext, entries) ->  {
+                        entries.add(ModItems.CHISEL);
+
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
 
