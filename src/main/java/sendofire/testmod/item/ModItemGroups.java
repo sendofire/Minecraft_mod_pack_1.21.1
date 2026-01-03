@@ -33,6 +33,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KINGLY_SOUL_EYE))
                     .displayName(Text.translatable("itemgroup.testmod.kingdom"))
                     .entries((displayContext, entries) ->  {
+                        entries.add(ModItems.ADVENTURER_SPYGLASS);
                         entries.add(ModItems.KINGLY_SOUL_EYE);
                     }).build());
 

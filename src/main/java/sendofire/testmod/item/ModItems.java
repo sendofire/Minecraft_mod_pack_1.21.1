@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import sendofire.testmod.TestMod;
+import sendofire.testmod.item.custom.AdventurerSpyglassItem;
 import sendofire.testmod.item.custom.ChiselItem;
 
 public class ModItems {
@@ -15,6 +16,7 @@ public class ModItems {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item ADVENTURER_SPYGLASS = registerItem("adventurer_spyglass", new AdventurerSpyglassItem(new Item.Settings().maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TestMod.MOD_ID, name), item);
