@@ -1,6 +1,11 @@
 {
+  "itemgroup.testmod.pink_garnet": "Pink Garnet",
+  "itemgroup.testmod.kingdom": "Differents Orgines",
+
   "item.testmod.kingly_soul_eye": "Kingly Soul Eye",
   "item.testmod.adventurer_spyglass": "Adventurer Spyglass",
+
+
 
   "item.testmod.chisel": "Chisel",
   "item.testmod.pink_garnet": "Pink Garnet",
@@ -14,6 +19,6 @@
 
   "block.testmod.magic_block": "Magic Block",
 
-  "itemgroup.testmod.pink_garnet": "Pink Garnet",
-  "itemgroup.testmod.kingdom": "Differents Orgines"
+  "item.testmod.cauliflower": "Cauliflower",
+  "item.testmod.starlight_ashes": "Starlight Ashes"
 }

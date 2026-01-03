@@ -28,6 +28,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     public static final ItemGroup ORIGIN_GROUP = Registry.register(Registries.ITEM_GROUP,
