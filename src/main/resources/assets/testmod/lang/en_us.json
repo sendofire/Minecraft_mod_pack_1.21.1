@@ -12,6 +12,8 @@
   "block.testmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.testmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
+  "block.testmod.magic_block": "Magic Block",
+
   "itemgroup.testmod.pink_garnet": "Pink Garnet",
-  "itemgroup.testmod.kingdom": "Kingdom"
+  "itemgroup.testmod.kingdom": "Differents Orgines"
 }

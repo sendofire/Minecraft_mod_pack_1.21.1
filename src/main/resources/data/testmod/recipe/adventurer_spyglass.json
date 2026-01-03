@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:spyglass"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "Y",
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "testmod:adventurer_spyglass"
+  }
+}

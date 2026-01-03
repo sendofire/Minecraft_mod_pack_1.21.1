@@ -26,10 +26,12 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
-    public static final ItemGroup KINGDOM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TestMod.MOD_ID, "pink_garnet_items"),
+    public static final ItemGroup ORIGIN_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TestMod.MOD_ID, "kingly_soul_eye"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KINGLY_SOUL_EYE))
                     .displayName(Text.translatable("itemgroup.testmod.kingdom"))
                     .entries((displayContext, entries) ->  {
